@@ -1,0 +1,22 @@
+{
+  "name": "distributed-uid-snowflake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omar-ahmed42/distributed-uid-snowflake.git"
+  },
+  "author": "omar-ahmed42",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omar-ahmed42/distributed-uid-snowflake/issues"
+  },
+  "homepage": "https://github.com/omar-ahmed42/distributed-uid-snowflake#readme",
+  "devDependencies": {
+    "@types/node": "^20.1.7"
+  }
+}
