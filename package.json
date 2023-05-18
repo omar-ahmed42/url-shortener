@@ -1,0 +1,31 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omar-ahmed42/url-shortener.git"
+  },
+  "author": "omar-ahmed42",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omar-ahmed42/url-shortener/issues"
+  },
+  "homepage": "https://github.com/omar-ahmed42/url-shortener#readme",
+  "dependencies": {
+    "@types/node": "^20.1.7",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http-status-codes": "^2.2.0",
+    "pg": "^8.11.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.31.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17"
+  }
+}
