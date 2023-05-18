@@ -82,7 +82,7 @@ export class UidGenerator {
     const diff = currentTimeInMillis - this.timeInMilliseconds;
     this.sequence = (diff >= 1) ? 1 : this.sequence + 1;
     this.timeInMilliseconds = currentTimeInMillis;
-    const timestamp = BigInt(currentTimeInMillis + TWITTER_EPOCH) << 22n;
+    const timestamp = BigInt(currentTimeInMillis - TWITTER_EPOCH) << 22n;
     return new Uid(timestamp, this.dataCenter, this.node, this.sequence);
   }
 }
